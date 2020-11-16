@@ -1,8 +1,150 @@
-body{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-.header{
-    background: url("img/bg1.png") no-repeat c;
+.container {
+    width: 1500px;
+    height: 800px;
+    margin: 0 auto;
+    /*border: solid red;*/
+}
+
+.header {
+    background: url("img/bg1.png") no-repeat center/cover;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+.logo p {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.call {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.order {
+    margin-left: 15px;
+    background: #EC722E;
+    border-radius: 100px;
+    padding: 2px 7px 2px 7px;
+    color: white;
+    font-weight: 500;
+}
+
+.telephone {
+    color: #EC722E;
+}
+
+.color {
+    color: #EC722E;
+    font-size: 50px;
+}
+
+.heading {
+    font-size: 23px;
+    letter-spacing: 11px;
+    font-weight: 200;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 160px;
+    margin-top: 90px;
+}
+
+.slogan2 p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #EC722E;
+}
+
+.slogan2 p {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 269px;
+    margin-top: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    background: #EC722E;
+    border-radius: 100px;
+    padding: 4px 15px 4px 15px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 440px;
+    margin-top: 30px;
+}
+
+
+.block-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic1 {
+    height: 360px;
+    width: 413px;
+    margin-top: 100px;
+}
+
+.heading-1 {
+    margin-top: 95px;
+    margin-right: 10px;
+}
+
+.heading-1 p {
+    text-align: center;
+    margin-right: 225px;
+    color: #EC722E;
+    font-size: 18px;
+    letter-spacing: 7px;
+}
+
+.heading-1 h3{
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.heading-1 h1 {
+    margin-right: 100px;
+    font-size: 27px;
+    letter-spacing: 6px;
+    font-weight: 300;
+}
+
+.button-2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 350px;
+    margin-top: 40px;
+}
+
+.button-2 a {
+    text-decoration: none;
+    color: white;
+    background: #EC722E;
+    border-radius: 100px;
+    padding: 4px 15px 4px 15px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.color-2{
+    color: #EC722E;
 }
