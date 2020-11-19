@@ -166,8 +166,8 @@
 }
 
 .picture {
-    width: 220px;
-    height: 230px;
+    width: 190px;
+    height: 190px;
 
 }
 
@@ -201,9 +201,7 @@ label { /*Стили для кнопок переключения*/
 #candles:not(:checked) ~ #reset:not(:checked) ~ .candles {
     display: none;
 }
-#blago:not(:checked) ~ #reset:not(:checked) ~ .blago {
-    display: none;
-}
+
 #collection:not(:checked) ~ #reset:not(:checked) ~ .collection {
     display: none;
 }
@@ -269,12 +267,8 @@ label { /*Стили для кнопок переключения*/
     justify-content: space-around;
 }
 
-.blago{
-    display: flex;
-    justify-content: space-around;
-}
 
-.collection{
+.collection {
     display: flex;
     justify-content: space-around;
 }
@@ -283,41 +277,72 @@ label { /*Стили для кнопок переключения*/
     font-size: 19px;
 }
 
-.blago-content {
-    color: white;
-    font-weight: 200;
-    text-align: center;
-    font-size: 18px;
-
-    background: #FFCBAE;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    padding: 15px;
-    border-radius: 9px;
-    width: 250px;
-}
-
-.blago {
-    display: flex;
-    justify-content: space-around;
-}
 
 .collection {
     display: flex;
     justify-content: space-around;
 }
 
-.collection-content{
+.collection-content {
     color: white;
     font-weight: 200;
     text-align: center;
     font-size: 18px;
 
-    background: #FFCBAE;
+    background: #ffcbae;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
     padding: 15px;
     border-radius: 9px;
     width: 250px;
 }
+
+
+.heading-4 h1 {
+    color: #EC722E;
+    font-size: 33px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 70px;
+}
+
+li{
+    color: #EC722E;
+}
+
+li span{
+    color: black;
+    font-size: 23px;
+}
+
+.list-of-adv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.picture-4{
+    height: 400px;
+    width: 400px;
+    margin-right: 50px;
+}
+
+
+.heading-5{
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin-top: 70px;
+}
+
+.figure{
+    width: 609px;
+    height: 300px;
+    background: #FFCBAE;
+    border-radius: 21px;
+}
+
+
+
 
 
 
